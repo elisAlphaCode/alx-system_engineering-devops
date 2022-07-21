@@ -10,7 +10,7 @@ if [ -f "school" ]
 	else
 		echo "school file is empty"
 		fi
-		if [ -f "school" ]
+		if [ -f "school" ] | [ -s "school" ]
 			then
 			echo "school file is a regular file"
 			fi
