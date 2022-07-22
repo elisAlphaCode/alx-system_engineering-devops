@@ -3,8 +3,8 @@
 
 start() {
 	./manage_my_process &
-	echo $$ > /var/run/manage_my_process.pid
-	if [ "$i" -eq 1 ]; then echo "manage_my_process started"; fi	
+	echo $$ >/var/run/my_process.pid
+	if [ "$1" -eq 1 ]; then echo "manage_my_process started"; fi
 }
 
 stop() {
