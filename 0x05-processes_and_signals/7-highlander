@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A script that displays To infinity... and I am invisible
-trap "echo I am invisible!!!" SIGTERM
+trap "echo I am invincible!!!" SIGTERM
 
 while true
 do
