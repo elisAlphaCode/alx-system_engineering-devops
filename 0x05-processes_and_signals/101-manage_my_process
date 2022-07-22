@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# The Script manages the manage_my_process file
+# Indefinitely writes I am alive! to the file /tmp/my_process
+# In between every I am alive! message, the program should pause for 2 seconds
 
 if [ "$1" = "start" ]
 then
